@@ -7,7 +7,7 @@ use tendermint_proto::crypto::{ProofOp, ProofOps};
 use crate::applications::ics31_icq::error::Error;
 use crate::signer::Signer;
 
-pub const TYPE_URL: &str = "/stride.interchainquery.v1.MsgSubmitQueryResponse";
+pub const TYPE_URL: &str = "/temporal.interchainquery.v1.MsgSubmitQueryResponse";
 
 #[derive(Clone, Debug, PartialEq, Eq)]
 pub struct CrossChainQueryResponse {
